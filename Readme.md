@@ -1,7 +1,7 @@
 # Личный проект «Девайс»
 
 * Студент: [Артём Цветков](https://up.htmlacademy.ru/htmlcss/36/user/2302253).
-* Наставник: `Неизвестно`.
+* Наставник: [Артём Судаков](https://htmlacademy.ru/profile/sudakovartem).
 
 ---
 
