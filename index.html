@@ -1,12 +1,162 @@
 <!DOCTYPE html>
 <html lang="ru">
+
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Девайс</title>
+    <link rel="stylesheet" href="C:\Users\777\Documents\GitHub\2302253-device-36\styles\style.css">
   </head>
+
   <body>
 
-    <p> Порхает как бабочка, жалит как пчела</p>
+    <header>
+      <img src="#" alt="лого">
+      <nav>
+      <div class="search">
+        <form>
+          <input type="text" name="text" class="search" placeholder="Поиск по сайту">
+          <input type="submit" name="submit" class="submit" value="найти">
+        </form>
+      </div>
+      <div class="enter">
+        <form>
+          <button type="submit">Войти</button>
+        </form>
+      </div>
+      <div class="compare">
+        <form>
+          <button type="submit">Сравнить</button>
+        </form>
+      </div>
+      <div class="basket">
+        <form>
+          <button type="submit">Корзина</button>
+        </form>
+      </div>
+      <table class="catalog">
+        <tr>
+          <td><a href="#" target="_blank">КАТАЛОГ ТОВАРОВ</a></td>
+        </tr>
+          <table class="delivery">
+            <tr>
+              <td><a href="#">ДОСТАВКА</a></td><!-- Должно быть модальное окно-->
+              <td><a href="#" target="_blank">ГАРАНТИЯ</a></td>
+              <td><a href="#" target="_blank">КОНТАКТЫ</a></td>
+              <td>01</td>
+            </tr>
+          </table>
+        </tr>
+      </table>
+    </nav>
+  </header>
 
+    <main>
+      <section>
+        <div class="slider">
+          <img src="#" alt="дрон">
+          <p>Порхает как бабочка, жалит как пчела!</p>
+          <p>Этот обычный, на первый взгляд, квадкоптер оснащен мощным лазером, замаскированным под стандартную камеру</p>
+          <p>ПОДРОБНЕЕ</p>
+          <table>
+            <tr>
+              <td>800 м</td>
+              <td>50 м</td>
+            </tr>
+              <tr>
+                <td>дальность полета</td>
+                <td>Радиус полета</td>
+              </tr>
+          </div>
+        </table>
+        <div class="img_catalog">
+          <a href="#" target="_blank"><img src="#" alt="виртуальная реальность"></a>
+          <a href="#" target="_blank"><img src="#" alt="моноподы для селфи"></a>
+          <a href="#" target="_blank"><img src="#" alt="Экшн камеры"></a>
+          <a href="#" target="_blank"><img src="#" alt="фитнес браслеты"></a>
+          <a href="#" target="_blank"><img src="#" alt="умные часы"></a>
+          <a href="#" target="_blank"><img src="#" alt="Квадракоптеры"></a>
+        </div>
+      </section>
+
+      <section>
+        <div  class="service">
+          <ul>
+            <li>ДОСТАВКА</li>
+            <li>ГАРАНТИЯ</li>
+            <li>КРЕДИТ</li>
+          </ul>
+          <p>Доставка<img src="#" alt="доставщик"></p>
+          <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж.</p>
+        </div>
+        <div class="modal-delivery">
+          <img src="#" alt="доставка"><!-- Должно быть модальное окно-->
+        </div>
+      </section>
+
+      <section>
+        <div class="about us">
+          <ul>
+            <li>О нас</li>
+            <li>Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.</li>
+            <li>Мы можем доставить ваш товар в самые отдалённые уголки России транспортными компаниями:</li>
+          <ul>
+            <li>Меловые линии</li>
+            <li>СДИК</li>
+            <li>ТоксБерри</li>
+          </ul>
+            <li><a href="#" target="_blank">Подробнее о нас</a></li>
+          </ul>
+        </div>
+        <div class="contacts">
+          <ul>
+            <li>Вы можете забрать товар сами, заехав в наш офис. Заодно сможете проверить работоспобность покупки.</li>
+            <li>Интернет-магазин «Девайс»</li>
+            <li>Санкт-Петербург, набережная реки Карповки, 5, литера П. +7 (812) 812-12-12</li>
+            <li>Время работы</li>
+            <li>пн—пт: с 10:00 до 22:00</li>
+            <li>сб—вс: с 10:00 до 19:00</li>
+            <li>НАПИШИТЕ НАМ</li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <div class="subscription">
+          <p>Подпишитесь на рассылку</p>
+          <p>Еженедельный дайджест с обзорами новинок, длительными тест-драйвами, распаковками, а также акции, спецпредложения и вот это вот всё.</p>
+          <form>
+            <input type="email" name="email" class="email" placeholder="Ваш e-mail">
+            <input type="submit" name="submit" class="submit" value="Подписаться">
+          </form>
+        </div>
+        <div>
+          <p><img src="#" alt="галочка">Это бесплатно</p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <section class="basement">
+        <img src="#" alt="лого">
+        <nav>
+          <ul>
+            <li>Санкт-Петербург, набережная реки Карповки, 5, литера П.</li>
+            <li>ДОСТАВКА</li><!--Modal-->
+            <li><a href="#" target="_blank">ГАРАНТИЯ</a></li>
+            <li><a href="#" target="_blank">КОНТАКТЫ</a></li>
+            <li>Тел.: +7 (812) 812-12-12</li>
+          </ul>
+          <div class="social">
+              <span><img src="#" alt="линия"></span>
+              <ul>
+              <li><a href="https://t.me/htmlacademy" target="_blank"><img src="C:\Users\777\Documents\GitHub\2302253-device-36\images\telegram.png" alt="Мы в телеграме"></a></li>
+              <li><a href="https://www.youtube.com/user/htmlacademyru" target="_blank"><img src="C:\Users\777\Documents\GitHub\2302253-device-36\images\youtube.png" alt="Мы в ютубе"></li>
+              <li><a href="https://twitter.com/user/htmlacademy_ru" target="_blank"><img src="C:\Users\777\Documents\GitHub\2302253-device-36\images\twitter.png" alt="Мы в твиттере"></a></li>
+              <li><a href="https://htmlacademy.ru/" target="_blank"><img src="C:\Users\777\Documents\GitHub\2302253-device-36\images\academy.png" alt="htmlacademy"></a></li>
+            </ul>
+          </div>
+        </nav>
+      </section>
+  </footer>
   </body>
 </html>
