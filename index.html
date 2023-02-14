@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Девайс</title>
-    <link rel="stylesheet" href="#">
+    <link rel="stylesheet" href="styles\style.css">
   </head>
 
   <body>
@@ -18,7 +18,7 @@
               <span class="visually-hidden">Поиск</span>
               <input class="search-input" type="text" name="text" placeholder="Поиск по сайту">
             </label>
-            <button class="search-button" type="submit">найти</button>
+            <button class="search-button" type="submit">Найти</button>
           </form>
         </div>
         <div class="user-navigation">
@@ -92,7 +92,7 @@
               метров
               длиной и весом всего 5 кг.</p>
             <a href="#" class="slider-button">ПОДРОБНЕЕ</a>
-            <ul>
+            <ul class="slider-info-list">
               <li>
                 <p class="slider-info-name">8,5 м</p>
                 <p class="slider-info-text">Длина палки</p>
@@ -115,7 +115,7 @@
           <li class="catalog-item">
             <a class="catalog-link" href="#" target="_blank">
               <div class="catalog-img-wrapper">
-                <img src="images\vr.svg" height="55" width="97" alt="виртуальная реальность">
+                <img class="catalog-image"  src="images\vr.svg" height="55" width="97" alt="виртуальная реальность">
               </div>
               <p class="catalog-text">Виртуальная реальность</p>
             </a>
@@ -133,7 +133,7 @@
               <div class="catalog-img-wrapper">
                 <img class="catalog-image" src="images\camera.svg" height="87" width="71" alt="Экшн камеры">
               </div>
-              <p class="catalog-text">Экшн камеры</p>
+              <p class="catalog-text">Экшн-камеры</p>
             </a>
           </li>
           <li class="catalog-item">
@@ -166,7 +166,7 @@
       <section class="service">
         <ul class="tabs">
           <li class="service-tab">
-            <button class="service-button active" type="button">ДОСТАВКА</button>
+            <button class="service-button-active" type="button">ДОСТАВКА</button>
           </li>
           <li class="service-tab">
             <button class="service-button" type="button">ГАРАНТИЯ</button>
@@ -206,7 +206,7 @@
           </div>
         </div>
         <div class="info-about">
-          <h2 class="info-title">О нас</h2>
+          <h2 class="info-title-left">О нас</h2>
           <p class="info-text">Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.</p>
           <p class="info-text">Мы можем доставить ваш товар в самые отдалённые уголки России транспортными компаниями:
           </p>
@@ -215,19 +215,19 @@
             <li class="info-item">СДИК</li>
             <li class="info-item">ТоксБерри</li>
           </ul>
-          <a class="info-btn button" href="#" target="_blank">Подробнее о нас</a>
+          <a class="info-btn-button" href="#" target="_blank">Подробнее о нас</a>
         </div>
         <div class="info-contacts">
           <h2 class="info-title">Контакты</h2>
           <p class="info-text">Вы можете забрать товар сами, заехав в наш офис. Заодно сможете проверить работоспобность
             покупки.</p>
-          <h3 class="info-title">Интернет-магазин «Девайс»</h3>
-          <p class="info-text">Санкт-Петербург, набережная реки Карповки, 5, литера П.<a href="tel:+7812812212">+7 (812)
+          <h3 class="info-title-right">Интернет-магазин «Девайс»</h3>
+          <p class="info-text">Санкт-Петербург, набережная реки Карповки, 5, литера П.<a class="info-text-link" href="tel:+7812812212">+7 (812)
               812-12-12</a></p>
-          <h3 class="info-title">Время работы</h3>
+          <h3 class="info-title-right">Время работы</h3>
           <p class="info-text">пн—пт: с 10:00 до 22:00</p>
           <p class="info-text">сб—вс: с 10:00 до 19:00</p>
-          <a class="info-btn button" href="#" target="_blank">НАПИШИТЕ НАМ</a>
+          <a class="info-btn-button" href="#" target="_blank">НАПИШИТЕ НАМ</a>
         </div>
       </section>
 
