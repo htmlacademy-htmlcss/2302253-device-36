@@ -9,15 +9,15 @@
 
   <body>
     <header class="page-header container">
-      <a class="header-logo-link">
+      <a class="header-logo-link" href="#">
         <img class="header-logo" src="images\logo-head.svg" height="36" width="145" alt="логотип">
       </a>
-        <nav class="catalog-navigation">
+        <nav class="navigation-catalog">
           <div class="search">
             <form class="search-form" action="https://echo.htmlacademy.ru/" method="post">
               <label>
                 <span class="visually-hidden">Поиск</span>
-                <input class="search-input" type="text" name="text" placeholder="Текст пойска">
+                <input class="search-input" type="text" name="text" placeholder="Поиск по сайту">
               </label>
               <button class="search-button" type="submit">Найти</button>
             </form>
@@ -197,6 +197,7 @@
             <ul class="pagination-list">
               <li class="pagination-item">
                 <a class="pagination-link-pagination-prev-pagination-disabled">
+                  <button class="pagination-back" type="button">Назад</button>
                   <span class="visually-hidden">НАЗАД</span>
                 </a>
               </li>
@@ -218,6 +219,7 @@
               <li class="pagination-item">
                 <a class="pagination-link-pagination-next" href="#">
                   <span class="visually-hidden">ВПЕРЁД</span>
+                  <button class="pagination-forward" type="button">Вперед</button>
                 </a>
               </li>
             </ul>
