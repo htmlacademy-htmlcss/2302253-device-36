@@ -56,10 +56,6 @@ body {
   flex-grow: 1;
 }
 
-.visually-hidden {
-  /*display: none;*/
-}
-
 .page-header {
   background-color: #ffffff;
   position: relative;
