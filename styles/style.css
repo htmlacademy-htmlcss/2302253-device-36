@@ -898,10 +898,7 @@ body {
   width: 557px;
   background: #F0F0F0;
   border-bottom: 3px solid #C4C4C4;
-}
-
-.subscription-input-wrapper {
-  font-family: 'Rubik';
+  font-family: 'Rubik', "Arial", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -909,6 +906,7 @@ body {
   color: #444444;
   opacity: 0.5;
 }
+
 
 .subscription-form:hover {
   background: #DCDCDC;
