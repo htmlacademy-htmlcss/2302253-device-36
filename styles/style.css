@@ -71,10 +71,8 @@ body {
 }
 
 .page-header {
-  background-color: #ffffff;
   position: relative;
   padding-top: 20px;
-  z-index: 1;
 }
 
 .page-header > .container {
@@ -100,6 +98,7 @@ body {
 .header-logo-link {
   display: inline-block;
   margin-bottom: 30px;
+  position: relative;
 }
 
 .header-logo-link:hover {
@@ -107,7 +106,7 @@ body {
 }
 
 .header-logo-link:active {
-  opacity: 0.3
+  opacity: 0.3;
 }
 
 .header-logo-link:focus {
@@ -125,7 +124,6 @@ body {
   font-size: 18px;
   line-height: 30px;
   padding-top: 40px;
-
 }
 
 .navigation-catalog {
@@ -152,6 +150,7 @@ body {
   position: absolute;
   left: 1001px;
   top: 219px;
+
 }
 
 
@@ -202,7 +201,7 @@ body {
   background: #000000;
   border: 2px solid #000000;
   border-radius: 0px 50px 50px 0px;
-  color: #ffffff
+  color: #ffffff;
 }
 
 .search-button:active {
@@ -515,7 +514,7 @@ body {
 }
 
 .button:active::after {
-  background: #FFCC33
+  background: #FFCC33;
 }
 
 .button:focus {
@@ -1014,7 +1013,7 @@ body {
 .subscription-button:hover {
   background: #000000;
   border: 3px solid #000000;
-  color: #ffffff
+  color: #ffffff;
 }
 
 .subscription-button:active {
@@ -1105,7 +1104,7 @@ body {
 }
 
 .footer-link:active {
-  opacity: 0.3
+  opacity: 0.3;
 }
 
 .footer-link:focus {
@@ -1179,7 +1178,7 @@ body {
 }
 
 .footer-tel:active {
-  opacity: 0.3
+  opacity: 0.3;
 }
 
 .footer-tel:focus {
@@ -1223,6 +1222,7 @@ body {
   line-height: 20px;
   text-decoration: none;
   color: #000000;
+  margin-top: 100px;
 }
 
 .breadcrumbs-main-title {
@@ -1249,11 +1249,11 @@ body {
 }
 
 .breadcrumbs-link:hover {
-  opacity: 0.6
+  opacity: 0.6;
 }
 
 .breadcrumbs-link:active {
-  opacity: 0.3
+  opacity: 0.3;
 }
 
 .breadcrumbs-link:focus {
@@ -1390,7 +1390,7 @@ body {
 }
 
 .range:hover {
-  opacity: 0.6;
+  opacity: 0.3;
 }
 
 .range:active {
@@ -1457,6 +1457,10 @@ fieldset {
   display: block;
 }
 
+.control-color input:checked ~ .checkbox-color {
+  border-color:#000000;
+}
+
 .checkbox-color::after {
   content: "";
   position: absolute;
@@ -1468,10 +1472,12 @@ fieldset {
   top: 5px;
   left: 5px;
   display: none;
+
+
 }
 
 .checkbox-color:hover {
-  opacity: 0.6;
+  opacity: 0.3;
 }
 
 .checkbox-color:active {
@@ -1532,7 +1538,7 @@ fieldset {
 }
 
 .radiobox-blueth:hover {
-  opacity: 0.6;
+  opacity: 0.3;
 }
 
 .radiobox-blueth:active {
@@ -1592,11 +1598,11 @@ fieldset {
 }
 
 .blueth-input:hover {
-  opacity: 0.6;
+  opacity: 0.3;
 }
 
 .blueth-input:active {
-  opacity: 0.3;
+  opacity: 0.6;
 }
 
 .blueth-input:focus {
@@ -2351,7 +2357,7 @@ input:invalid ~ .email-error {
 }
 
 .popover {
-  /*display: none;*/
+  display: none;
 }
 
 .slider-next {
@@ -2427,9 +2433,6 @@ input:invalid ~ .email-error {
   opacity: 0.3;
 }
 
-.slider-pagination-item:hover {
-  opacity: 0.3;
-}
 
 .slider-pagination-item:active {
   opacity: 0.6;
