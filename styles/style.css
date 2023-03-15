@@ -395,11 +395,15 @@ body {
 
 .open-catalog {
   position: absolute;
+  padding-left: 60px;
+  left: 40px;
   flex-direction: row;
-  width: 100%;
+  width: 1160px;
   height: 180px;
-  top: 200px;
+  top: 210px;
   display: none;
+  background: #FFE17F;
+  z-index: 20;
 }
 
 .open-catalog-list {
