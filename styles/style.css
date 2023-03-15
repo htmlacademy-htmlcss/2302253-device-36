@@ -77,7 +77,7 @@ body {
   content: "";
   position: absolute;
   top: 40px;
-  width: 1220px;
+  width: 1160px;
   height: 300px;
   background-color: #FFE17F;
   z-index: -1;
@@ -87,7 +87,7 @@ body {
   content: "";
   position: absolute;
   top: 40px;
-  width: 1220px;
+  width: 1160px;
   height: 100%;
   background-color: #FFE17F;
   z-index: -1;
