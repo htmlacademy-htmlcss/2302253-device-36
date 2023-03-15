@@ -135,7 +135,7 @@ body {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-start;
   font-family: "Rubik", "Arial", sans-serif;
   font-style: normal;
   font-weight: 400;
