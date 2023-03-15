@@ -157,6 +157,9 @@ body {
   top: 210px;
 }
 
+.search-catalog {
+  margin-left: 40px;
+}
 
 .search-form {
   display: flex;
@@ -325,7 +328,7 @@ body {
   font-size: 18px;
   line-height: 30px;
   color: #000000;
-  min-width: 200px;
+  min-width: 180px;
 }
 
 .user-navigation-link-catalog:hover {
@@ -1274,6 +1277,7 @@ input#email:invalid {
 .main-catalog-wrapper {
   display: flex;
   flex-direction: row;
+  padding-left: 20px;
 }
 
 .breadcrumbs {
@@ -1290,7 +1294,7 @@ input#email:invalid {
   line-height: 20px;
   text-decoration: none;
   color: #000000;
-  padding-left: 80px;
+  padding-left: 90px;
 }
 
 .breadcrumbs-main-title {
@@ -1352,6 +1356,7 @@ input#email:invalid {
   line-height: 19px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
+  padding-left: 50px;
 }
 
 .catalog-sort-categories {
